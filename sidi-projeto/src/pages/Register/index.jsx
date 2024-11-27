@@ -5,6 +5,8 @@ import { MdLock, MdEmail } from "react-icons/md";
 
 const Register = () => {
     const navigate = useNavigate()
+
+    
     return (
         
         <div className="container-register">

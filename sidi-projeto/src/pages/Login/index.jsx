@@ -3,6 +3,7 @@ import './styles.css'
 import { FaUser} from "react-icons/fa";
 import { MdLock } from "react-icons/md";
 
+
 const Login = () => {
     //const navigate = useNavigate()
     return (
@@ -21,14 +22,17 @@ const Login = () => {
                     <div className="content-input">
                         <input type="text" placeholder="Usuário" id="user-text" required />
                         <FaUser className='icon' />
+                        
                     </div>
 
                     <div className="content-input">
                         <input type="password" placeholder="Senha" id="password-text" required />
                         <MdLock className='icon' />
                         
+                        
                     </div>
                     <div className="container-nav">
+                        
                         <p>lembre-se de mim</p>
                         <a className='forgot-password a-text' href="/esqueceu">Esqueceu sua senha?</a>
                     </div>
