@@ -41,7 +41,7 @@ const Register = () => {
         
                     </div>
 
-                    <button className='button' type="submit" onClick={() => navigate("/home")}>Entrar</button>
+                    <button className='button' type="submit" onClick={() => navigate("/home")}>Cadastrar</button>
                     <div className="container-nav">
                         <p>Ja tem uma conta? <a className='cadastre-a a-text' href="/login">Faça Login</a></p>
                     </div>

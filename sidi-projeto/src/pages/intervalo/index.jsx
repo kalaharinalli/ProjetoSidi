@@ -1,4 +1,4 @@
-import './styles.css';
+import './styles.css'
 import { useNavigate } from 'react-router-dom'
 import { IoWalletOutline } from "react-icons/io5";
 import { GrMapLocation } from "react-icons/gr";
@@ -6,10 +6,10 @@ import { SlUserUnfollow } from "react-icons/sl";
 import { FaCashRegister } from "react-icons/fa";
 
 
-const Home = () => {
-  const navigate = useNavigate()
+const IntervaloEntrar = () => {
+    const navigate = useNavigate()
   return (
-    <div className="container-home">
+    <div className="container-intervalo">
       <div className="container-imagem">
         <h1>Nossa missão é criar soluções para um mundo mais inteligente e seguro!</h1>
       </div>
@@ -43,7 +43,13 @@ const Home = () => {
                 <div><h4>Planejado 20:00</h4></div>
               </div>
             </div>
-            <div><button className='buttonn' type="submit" onClick={() => navigate("/intervalo")}>Entrar</button></div>
+            <div><button className='buttonInter' type="submit" onClick={() => navigate("/intervalo")}>Intervalo</button>
+            </div>
+            <div><button className='buttonSai' type="submit" onClick={() => navigate("/intervalo")}>Saída</button>
+            </div>
+            
+            
+            
 
           </div>
           <div className='caixas'><div className="flex-item"><FaCashRegister /><p>Meus <br/> Pontos</p></div>
@@ -57,5 +63,6 @@ const Home = () => {
     </div>
   );
 };
+export default IntervaloEntrar;
 
-export default Home;
+    

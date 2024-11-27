@@ -1,11 +1,11 @@
 import './styles.css'
-//import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { FaUser} from "react-icons/fa";
 import { MdLock } from "react-icons/md";
 
 
 const Login = () => {
-    //const navigate = useNavigate()
+    const navigate = useNavigate()
     return (
         
         <div className="container-login">
@@ -37,7 +37,7 @@ const Login = () => {
                         <a className='forgot-password a-text' href="/esqueceu">Esqueceu sua senha?</a>
                     </div>
 
-                    <button className='button' type="submit" >Entrar</button>
+                    <button className='button' type="submit" onClick={() => navigate("/home")}>Entrar</button>
                     <div className="container-nav">
                         <p>Não tem conta? <a className='cadastre-a a-text' href="/register">Cadastre-se</a></p>
                     </div>
