@@ -6,10 +6,10 @@ import { SlUserUnfollow } from "react-icons/sl";
 import { FaCashRegister } from "react-icons/fa";
 
 
-const IntervaloEntrar = () => {
+const Saida = () => {
     const navigate = useNavigate()
   return (
-    <div className="container-intervalo">
+    <div className="container-intervalo-saida">
       <div className="container-imagem">
         <h1>Nossa missão é criar soluções para um mundo mais inteligente e seguro!</h1>
       </div>
@@ -43,9 +43,7 @@ const IntervaloEntrar = () => {
                 <div><h4>Planejado 20:00</h4></div>
               </div>
             </div>
-            <div><button className='buttonInter' type="submit" onClick={() => navigate("/retorno")}>Intervalo</button>
-            </div>
-            <div><button className='buttonSai' type="submit" onClick={() => navigate("/saida")}>Saída</button>
+            <div><button className='buttonSaid' type="submit" onClick={() => navigate("/login")}>Saída</button>
             </div>
             
             
@@ -63,6 +61,6 @@ const IntervaloEntrar = () => {
     </div>
   );
 };
-export default IntervaloEntrar;
+export default Saida;
 
     

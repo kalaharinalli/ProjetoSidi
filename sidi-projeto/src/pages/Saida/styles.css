@@ -1,4 +1,4 @@
-.container-intervalo {
+.container-intervalo-saida{
     height: 100vh;
     width: 100%;
     display: grid;
@@ -75,7 +75,7 @@
 .flex-item-saldo {
     display: flex;
     flex-direction: column;
-    height: 487px;
+    height: 495px;
     width: 300px;
     margin-top: 30px;
     background-color: #231636;
@@ -150,9 +150,9 @@
 }
 
 
-.buttonInter, .buttonSai {
-    padding: 8px 60px;
-    font-size: 16px;
+.buttonSaid {
+    padding: 8px 50px;
+    font-size: 15px;
     color: #F0F0F0;
     border: none;
     border-radius: 25px;
@@ -160,20 +160,13 @@
     width: 170px;
     text-align: center;
     margin-bottom: 0;
-  }
-.buttonInter {
-    background-color: #DA7700;
+    justify-content: center;
     
-}
+    
+  }
 
-.buttonSai {
+.buttonSaid {
     background-color:#6F1313;
 
     
 }
-
-
-
-
-
-
