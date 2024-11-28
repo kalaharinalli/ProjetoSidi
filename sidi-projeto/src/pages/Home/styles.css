@@ -36,7 +36,14 @@
     bottom: 0;
     position: absolute;
 }
-
+.logo {
+    height: 60px;
+    
+    display: flex;
+    justify-items: center;
+    
+    
+}
 .grid-item-header {
     background-color: #231636;
     position:absolute;
@@ -50,12 +57,18 @@
     z-index: 20; /* Define a ordem no empilhamento de elementos */
     display: flex;
     justify-content: space-between;
+    
 }
 .grid-item-header h2 {               
     font-size: 20px;           
     font-weight:normal;          
     text-align: initial;       
     margin: 0;
+    height: 10px;
+    
+    
+    
+    
   }
 
   .flex-item-main {

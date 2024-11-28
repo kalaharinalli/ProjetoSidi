@@ -4,6 +4,8 @@ import { IoWalletOutline } from "react-icons/io5";
 import { GrMapLocation } from "react-icons/gr";
 import { SlUserUnfollow } from "react-icons/sl";
 import { FaCashRegister } from "react-icons/fa";
+import { FaRegCircleUser } from "react-icons/fa6";
+
 
 
 const Home = () => {
@@ -14,8 +16,8 @@ const Home = () => {
         <h1>Nossa missão é criar soluções para um mundo mais inteligente e seguro!</h1>
       </div>
       <div className="grid-item-header">
-          <div><h2>| Bom dia, Tales Tompson!</h2></div>
-          <div><h2>Perfil</h2></div>
+          <div><img className='logo' src='/imagens/Logo - Branco.svg' /><h2>| Bom dia, Tales Tompson!</h2></div>
+          <div><FaRegCircleUser /><h2>Perfil</h2></div>
         </div>
       <div className="flex-container">
         
